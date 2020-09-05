@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quien quiere ser millonario</title>
+    <link rel="stylesheet" href="Trivia.css"></link>
+    <link rel="icon" type="image/png" href="millionaire.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Centrador">
+        <div id="countdown" class="countdown"></div>
+        <div class="Puntos"><span id="Puntos"></span></div>
+        <h1>¿Quien quiere ser Millonario?</h1>
+        <div class="ContenedorImg">
+            <div class="Portada"></div>
+        </div>
+        <div id="Pregunta" class="Pregunta"></div>
+        <div id="Respuestas" class="Respuestas"></div>
+        <div class="Contenedor">
+            <input type="button" value="Enviar" class="BotonEnviar" onclick="comprobar()">
+        </div>
+        <audio id="audio" controls>
+            <source type="audio/mp4" src="Intro.mp4">
+            </audio>
+    </div>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="Trivia.js"></script>
+</html>
